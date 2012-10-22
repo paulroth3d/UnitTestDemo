@@ -11,6 +11,7 @@ function checkError {
 			#exit 99
 		}; else {
 			echo "There were failures";
+			cat _jasmine-errors.txt
 		}; fi;
     fi
 }
